@@ -8,7 +8,7 @@ After=network.target
 
 User=yc-user
 
-WorkingDirectory=/home/yc-user/infra_sprint1/backend
+WorkingDirectory=/home/yc-user/infra_sprint1/backend/
 
 ExecStart=/home/yc-user/infra_sprint1/venv/bin/gunicorn --bind 0.0.0.0:8080 kittygram_backend.wsgi
 
