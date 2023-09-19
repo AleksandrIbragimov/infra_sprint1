@@ -1,0 +1,5 @@
+IP: 84.201.161.186
+name_taski: https://sibtaski.hopto.org/
+name_kittygram: https://hellokittygram.hopto.org/
+login: sasha
+password: sasha1987
