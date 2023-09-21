@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', default=True)
 
 DEBUG = os.getenv('DEBUG', default='False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default='hellokittygram.hopto.org')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
