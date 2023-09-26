@@ -7,11 +7,11 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('SECRET_KEY', default=True)
+SECRET_KEY = os.getenv('SECRET_KEY', default='SECRET_KEY не найден')
 
 DEBUG = os.getenv('DEBUG', default='False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', default='hellokittygram.hopto.org')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
